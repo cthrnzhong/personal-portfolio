@@ -117,7 +117,7 @@
         ============================ */
     #projects-preview {
         padding: 4rem 2rem;
-        background-color: #var(var(--project-bg));
+        background-color: var(--project-bg);
         transition: background-color 0.3s;
     }
     
