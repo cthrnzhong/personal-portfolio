@@ -13,7 +13,7 @@
 
         --project-bg: #fff;
         --project-shadow: rgda(0,0,0,0.05);
-        --project-border: #e5e7eb;
+        --project-border: #2a2a2a;
     }
     
     body.dark {
@@ -27,7 +27,7 @@
 
         --project-bg: #1a1a1a;
         --project-shadow: rgba(0,0,0,0.5);
-        --project-border: #2a2a2a;
+        --project-border: #e5e7eb;
     }
         
     /*  ============================
