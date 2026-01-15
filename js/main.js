@@ -10,10 +10,10 @@ toggleButton.addEventListener('click', () => {
 
     if(body.classList.contains('dark')) {
         localStorage.setItem('theme', 'dark');
-        toggleButton.textContent = 'sun';
+        toggleButton.textContent = 'light';
     }
     else {
         localStorage.setItem('theme', 'light');
-        toggleButton.setItem('theme', 'moon');
+        toggleButton.textContent = "dark";
     }
 });
