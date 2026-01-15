@@ -6,22 +6,28 @@
         --bg-color: #fdfdfd;
         --text-color: #111;
         --accent-color: #1a73e8;
+
         --header-bg: #fff;
         --footer-bg: #111;
         --footer-text: #fff;
+
         --project-bg: #fff;
         --project-shadow: rgda(0,0,0,0.05);
+        --project-border: #e5e7eb;
     }
     
     body.dark {
         --bg-color: #111;
         --text-color: #fdfdfd;
         --accent-color: #66aaff;
+
         --header-bg: #222;
         --footer-bg: #111;
         --footer-text: #fdfdfd;
+
         --project-bg: #1a1a1a;
         --project-shadow: rgba(0,0,0,0.5);
+        --project-border: #2a2a2a;
     }
         
     /*  ============================
@@ -138,6 +144,7 @@
         background-color: var(--project-bg);
         padding: 1.5rem;
         border-radius: 10px;
+        border: 1px solid var(--project-border);
         box-shadow: 0 4px 12px var(--project-shadow);
         transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
@@ -145,6 +152,7 @@
     .project:hover {
         transform: translateY(-5px);
         box-shadow: 0 6px 18px var(--project-shadow);
+        border-color: var(--accent-color);
     }
     
     .project h3 {
