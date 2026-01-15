@@ -3,6 +3,8 @@
     ============================ */
     :root {
         /*light mode*/
+        --toggle-color: #111;
+
         --bg-color: #fdfdfd;
         --text-color: #111;
         --accent-color: #1a73e8;
@@ -17,6 +19,8 @@
     }
     
     body.dark {
+        --toggle-color: #fdfdfd;
+
         --bg-color: #111;
         --text-color: #fdfdfd;
         --accent-color: #66aaff;
@@ -213,6 +217,7 @@
         cursor: pointer;
         font-size: 1.25rem;
         padding: 0.25rem;
+        color: var(--toggle-color);
         transition: transform 0.2s ease;
     }
     
